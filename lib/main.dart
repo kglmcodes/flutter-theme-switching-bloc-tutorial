@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 
   Widget _buildWithTheme(BuildContext context, ThemeState state) {
     return MaterialApp(
-      title: 'Material App',
+      title: 'Cupertino App',
       theme: state.themeData,
       home: HomePage(),
     );
